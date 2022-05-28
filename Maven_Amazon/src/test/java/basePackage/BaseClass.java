@@ -32,5 +32,11 @@ public class BaseClass {
 		WebDriver driver = new OperaDriver();
 		return driver ;
 	}
+	public static WebDriver openOperaminiBrowser()
+	{
+		System.setProperty("webdriver.opera.driver", "C:\\Selenium\\Opera Driver\\msedgedriver.exe");
+		WebDriver driver = new OperaDriver();
+		return driver ;
+	}
 
 }
