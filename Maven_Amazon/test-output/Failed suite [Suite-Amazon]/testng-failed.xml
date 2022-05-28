@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Suite-Amazon]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="ChromeBrowserTest(failed)(failed)">
+    <parameter name="Browsers" value="ChromeBrowser"/>
+    <classes>
+      <class name="test.TestngClass_CrossBrowser">
+        <methods>
+          <include name="closeBrowserSetDriverNull"/>
+          <include name="logout"/>
+          <include name="clearPOMObject"/>
+          <include name="launchBrowser"/>
+          <include name="loginAmazon"/>
+          <include name="registrytab"/>
+          <include name="objectCreation"/>
+          <include name="buyAgainTab"/>
+        </methods>
+      </class> <!-- test.TestngClass_CrossBrowser -->
+    </classes>
+  </test> <!-- ChromeBrowserTest(failed)(failed) -->
+  <test thread-count="5" name="EdgeBrowserTest(failed)(failed)">
+    <parameter name="Browsers" value="EdgeBrowser"/>
+    <classes>
+      <class name="test.TestngClass_CrossBrowser">
+        <methods>
+          <include name="closeBrowserSetDriverNull"/>
+          <include name="logout"/>
+          <include name="clearPOMObject"/>
+          <include name="launchBrowser"/>
+          <include name="loginAmazon"/>
+          <include name="registrytab"/>
+          <include name="objectCreation"/>
+          <include name="buyAgainTab"/>
+        </methods>
+      </class> <!-- test.TestngClass_CrossBrowser -->
+    </classes>
+  </test> <!-- EdgeBrowserTest(failed)(failed) -->
+  <test thread-count="5" name="FirefoxBrowserTest(failed)(failed)">
+    <parameter name="Browsers" value="FirefoxBrowser"/>
+    <classes>
+      <class name="test.TestngClass_CrossBrowser">
+        <methods>
+          <include name="closeBrowserSetDriverNull"/>
+          <include name="logout"/>
+          <include name="clearPOMObject"/>
+          <include name="launchBrowser"/>
+          <include name="loginAmazon"/>
+          <include name="registrytab"/>
+          <include name="giftCardTab"/>
+          <include name="objectCreation"/>
+          <include name="buyAgainTab"/>
+        </methods>
+      </class> <!-- test.TestngClass_CrossBrowser -->
+    </classes>
+  </test> <!-- FirefoxBrowserTest(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite-Amazon]] -->
